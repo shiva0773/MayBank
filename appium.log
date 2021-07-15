@@ -1,0 +1,56 @@
+[35m[Appium][39m Welcome to Appium v1.20.2
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   port: 49736
+[35m[Appium][39m   loglevel: info
+[35m[Appium][39m   tmpDir: /var/folders/2y/zm8zyls14x5bmz5xsdslzm3r0000gn/T//Katalon/Appium/Temp1626252631497
+[35m[Appium][39m   chromedriverPort: 49737
+[35m[Appium][39m Deprecated server args:
+[35m[Appium][39m   [31m--chromedriver-port[39m => --default-capabilities
+[35m[Appium][39m Default capabilities, which will be added to each request unless overridden by desired capabilities:
+[35m[Appium][39m   chromedriverPort: 49737
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:49736
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m6 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m2 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"newCommandTimeout":1800,"realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole","platformVersion":"14.6","automationName":"XCUITest","bundleId":"com.mbblabs.mayabusiness","waitForAppScript":"true;","platformName":"iOS","udid":"46c881fe2f2087259d4520d4e17181beb61d84a8","deviceId":"46c881fe2f2087259d4520d4e17181beb61d84a8","deviceName":"iPhone","wdaLocalPort":49748},"capabilities":{"firstMatch":[{"appium:automationName":"XCUITest","appium:bundleId":"com.mbblabs.mayabusiness","deviceId":"46c881fe2f2087259d4520d4e17181beb61d84a8","appium:deviceName":"iPhone","appium:newCommandTimeout":1800,"platformName":"ios","appium:platformVersion":"14.6","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole","appium:udid":"46c881fe2f2087259d4520d4e17181beb61d84a8","appium:waitForAppScript":"true;","appium:wdaLocalPort":49748}]}}[39m
+[35m[BaseDriver][39m The following capabilities are not standard capabilities and should have an extension prefix:
+[35m[BaseDriver][39m   deviceId
+[35m[BaseDriver][39m   realDeviceLogger
+[35m[BaseDriver][39m   chromedriverPort
+[35m[Appium][39m Appium v1.20.2 creating new XCUITestDriver (v3.33.1) session
+[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
+[35m[BaseDriver][39m   deviceId
+[35m[BaseDriver][39m   chromedriverPort
+[35m[BaseDriver][39m Session created with session id: f1684c1f-437c-4830-8d56-c46c4e794fe9
+[35m[XCUITest][39m Determining device to run tests on: udid: '46c881fe2f2087259d4520d4e17181beb61d84a8', real device: true
+[35m[WebDriverAgent][39m Using WDA path: '/usr/local/lib/node_modules/appium/node_modules/appium-webdriveragent'
+[35m[WebDriverAgent][39m Using WDA agent: '/usr/local/lib/node_modules/appium/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj'
+[35m[XCUITest][39m Setting up real device
+[35m[DevCon Factory][39m Requesting connection for device 46c881fe2f2087259d4520d4e17181beb61d84a8 on local port 49748, device port 49748
+[35m[DevCon Factory][39m Successfully requested the connection for 46c881fe2f2087259d4520d4e17181beb61d84a8:49748
+[35m[WD Proxy][39m socket hang up
+[35m[WebDriverAgent][39m Launching WebDriverAgent on the device
+[35m[WebDriverAgent][39m WebDriverAgent does not need a cleanup. The sources are up to date (499162500000 >= 499162500000)
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WebDriverAgent][39m Launching WebDriverAgent on the device
+[35m[WebDriverAgent][39m WebDriverAgent does not need a cleanup. The sources are up to date (499162500000 >= 499162500000)
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[XCUITest][39m Quitting and uninstalling WebDriverAgent
+[35m[WebDriverAgent][39m Shutting down sub-processes
+[35m[DevCon Factory][39m Releasing connections for 46c881fe2f2087259d4520d4e17181beb61d84a8 device on any port number
+[35m[DevCon Factory][39m Found cached connections to release: ["46c881fe2f2087259d4520d4e17181beb61d84a8:49748"]
+[35m[DevCon Factory][39m Releasing the listener for '46c881fe2f2087259d4520d4e17181beb61d84a8:49748'
+[35m[iProxy@46c881fe:49748][39m The connection has been closed
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[31m500[39m [90m9108 ms - 1329[39m
+[35m[HTTP][39m [90m[39m
